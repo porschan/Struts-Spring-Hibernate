@@ -1,36 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="demo:war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0f3d88de-d56d-4360-acae-befe867e0d1f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/.idea/dataSources/05e4bd65-2bf5-420c-b3e7-f3d154dbee91.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/.idea/dataSources/2a9f70bd-6474-4650-9464-cfc94834980d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/.idea/dataSources/6484d238-aa11-40f4-b060-60f5411295c6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/.idea/dataSources/fc52b8aa-c482-42da-821a-890934c1a065.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/StrutsSpringHibernateCreate.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/src/main/java/com/chanchifeng/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/src/main/java/com/chanchifeng/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/src/main/java/com/chanchifeng/dao/impl/UserDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/src/main/java/com/chanchifeng/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/src/main/java/com/chanchifeng/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/src/main/java/com/chanchifeng/service/impl/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/src/main/resources/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/src/main/resources/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/src/main/resources/struts.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/src/main/webapp/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts-Spring-Hibernate-Create/src/main/webapp/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -122,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chanchifeng/action/UserAction.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
-              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,11 +107,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="582">
+              <caret line="162" column="25" lean-forward="true" selection-start-line="162" selection-start-column="25" selection-end-line="162" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -175,7 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
@@ -186,8 +172,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chanchifeng/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chanchifeng/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -216,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="683" />
     <option name="width" value="1884" />
     <option name="height" value="1407" />
@@ -363,6 +357,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="JPA.DatabaseSchemaImportDialog" value="3ab0149f-0bae-4745-9aa4-f4810ae26af4" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
@@ -477,15 +472,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558192333185</updated>
-      <workItem from="1558192337897" duration="1764000" />
+      <workItem from="1558192337897" duration="2180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1764000" />
+    <option name="totallyTimeSpent" value="2180000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="0" width="1884" height="1407" extended-state="1" />
+    <frame x="683" y="0" width="1884" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Persistence" sideWeight="0.28604925" side_tool="true" weight="0.20339912" />
@@ -493,7 +488,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.71395075" visible="true" weight="0.20339912" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.71395075" visible="true" weight="0.20339912" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" weight="0.3299293" />
       <window_info anchor="bottom" id="Spring" />
@@ -506,7 +501,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299293" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299293" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -524,14 +519,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="94" column="50" selection-start-line="94" selection-start-column="50" selection-end-line="94" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -617,7 +604,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chanchifeng/action/UserAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -627,7 +614,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="162" column="25" lean-forward="true" selection-start-line="162" selection-start-column="25" selection-end-line="162" selection-end-column="25" />
         </state>
       </provider>
     </entry>
