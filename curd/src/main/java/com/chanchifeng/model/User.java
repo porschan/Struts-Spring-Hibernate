@@ -1,9 +1,6 @@
 package com.chanchifeng.model;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class User {
@@ -12,6 +9,7 @@ public class User {
 
     @Id
     @Column(name = "uid")
+    @GeneratedValue(strategy = GenerationType.AUTO)
     public Integer getUid() {
         return uid;
     }
@@ -56,5 +54,13 @@ public class User {
         int result = uid != null ? uid.hashCode() : 0;
         result = 31 * result + (uname != null ? uname.hashCode() : 0);
         return result;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "uid=" + uid +
+                ", uname='" + uname + '\'' +
+                '}';
     }
 }

@@ -39,6 +39,7 @@
     </schema>
     <schema id="12" parent="1" name="webapp">
       <Current>1</Current>
+      <Visible>1</Visible>
       <Collation>utf8_bin</Collation>
     </schema>
     <collation id="13" parent="1" name="armscii8_bin">
@@ -929,5 +930,23 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
+    <table id="235" parent="12" name="user"/>
+    <column id="236" parent="235" name="uid">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="237" parent="235" name="uname">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="238" parent="235" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>uid</ColNames>
+      <Primary>1</Primary>
+    </key>
   </database-model>
 </dataSource>

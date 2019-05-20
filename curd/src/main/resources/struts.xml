@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+
+    <!-- 修改常量管理struts 中的action的工程，这个常量的使用，必须引入 spring和struts的整合包，不然spring无法管理struts2 Action 中的实体类-->
+    <constant name="struts.objectFactory" value="spring" />
+
+    <package name="employee" extends="struts-default" namespace="/">
+        <action name="user_*" class="userAction" method="{1}">
+            <result name="success">/index.jsp</result>
+            <allowed-methods>m1,saveUser</allowed-methods><!-- struts 2.5 之后，使用通配符必须加上这一行 ，否则无法使用通配符访问-->
+        </action>
+    </package>
+
+    <package name="curd" extends="struts-default">
+        <action name="add" class="curdAction" method="add">
+            <result name="success" type="redirectAction">queryAll</result>
+        </action>
+        <action name="queryAll" class="curdAction" method="queryAll">
+            <result name="success" type="dispatcher">/WEB-INF/curd/index.jsp</result>
+        </action>
+        <action name="delete" class="curdAction" method="delete">
+            <result name="success" type="redirectAction">queryAll</result>
+        </action>
+        <action name="queryById" class="curdAction" method="queryById">
+            <result name="success" type="dispatcher">/WEB-INF/curd/update.jsp</result>
+        </action>
+        <action name="update" class="curdAction" method="update">
+            <result name="success" type="redirectAction">queryAll</result>
+        </action>
+    </package>
+
+    <!-- 允许访问静态文件 -->
+    <constant name="struts.action.excludePattern" value="/static/.*?"></constant>
+    
+</struts>
