@@ -32,9 +32,29 @@
         <action name="update" class="curdAction" method="update">
             <result name="success" type="redirectAction">queryAll</result>
         </action>
+
+        <action name="curdPage" class="curdAction" method="queryAll">
+            <result name="success" type="dispatcher">/WEB-INF/curd/index.jsp</result>
+        </action>
+
+        <action name="curd_*" class="curdAction" method="{1}">
+<!--            <result name="NONE" type="dispatcher">/WEB-INF/curd/index.jsp</result>-->
+            <allowed-methods>findAllJSON</allowed-methods>
+        </action>
+    </package>
+
+    <package name="file" namespace="/" extends="struts-default">
+        <action name="filePage" class="uploadAction" method="filePage">
+            <result>/WEB-INF/file/index.jsp</result>
+        </action>
+        <action name="upload" class="uploadAction" method="execute">
+            <result>/WEB-INF/file/index.jsp</result>
+        </action>
     </package>
 
     <!-- 允许访问静态文件 -->
     <constant name="struts.action.excludePattern" value="/static/.*?"></constant>
     
 </struts>
+
+<!--todo https://blog.csdn.net/kaka0509/article/details/72597699-->

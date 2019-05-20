@@ -22,7 +22,9 @@ public class UserAction extends ActionSupport {
     }
     public String m1(){
         user=userService.getUser(1);
-        System.out.println(user.getUname());
+        if(user == null){
+            user = new User();
+        }
         return SUCCESS;
     }
     public String saveUser(){

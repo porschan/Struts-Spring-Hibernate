@@ -3,6 +3,7 @@ package com.chanchifeng.service.impl;
 import com.chanchifeng.dao.UserDao;
 import com.chanchifeng.model.User;
 import com.chanchifeng.service.UserService;
+import com.chanchifeng.vo.Pager;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -67,4 +68,22 @@ public class UserServiceImpl implements UserService {
     }
 
     /*END CURD*/
+
+    /**
+     * 根据查询条件，查询商品分页信息
+     *
+     * @param searchModel
+     *            封装查询条件
+     * @param pageNum
+     *            查询第几页数据
+     * @param pageSize
+     *            每页显示多少条记录
+     * @return 查询结果
+     */
+    @Transactional(readOnly=true)
+    @Override
+    public Pager<User> findByPage(User searchModel, int pageNum, int pageSize) {
+        Pager<User> result = userDao.findByPage(searchModel, pageNum, pageSize);
+        return result;
+    }
 }

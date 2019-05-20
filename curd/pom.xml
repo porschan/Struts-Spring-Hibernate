@@ -16,6 +16,8 @@
         <spring-version>5.0.7.RELEASE</spring-version>
         <hibernate-version>5.3.1.Final</hibernate-version>
         <struts-version>2.5.14.1</struts-version>
+
+        <fastjson_version>1.2.28</fastjson_version>
     </properties>
 
     <dependencies>
@@ -155,6 +157,12 @@
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>3.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson_version}</version>
         </dependency>
 
     </dependencies>
