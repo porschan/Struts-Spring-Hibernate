@@ -56,5 +56,3 @@
     <constant name="struts.action.excludePattern" value="/static/.*?"></constant>
     
 </struts>
-
-<!--todo https://blog.csdn.net/kaka0509/article/details/72597699-->

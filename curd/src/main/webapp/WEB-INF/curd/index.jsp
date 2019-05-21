@@ -54,7 +54,7 @@
 layerUI - jquery
 
 条件搜索：
-uanme:<input type="text" id="uname" value="">
+uanme:<input type="text" id="uname" value="1">
 uid:<input type="text" id="uid"  value="">
 
 <table id="demo" lay-filter="test"></table>

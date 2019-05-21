@@ -109,15 +109,6 @@ public class UserDaoImpl implements UserDao {
      * @return
      */
 
-//    private User user;
-//
-//    public User getUser() {
-//        return user;
-//    }
-//
-//    public void setUser(User user) {
-//        this.user = user;
-//    }
 
     @Override
     public Pager<User> findByPage(User searchModel, int pageNum, int pageSize) {

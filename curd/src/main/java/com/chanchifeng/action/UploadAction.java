@@ -9,8 +9,6 @@ import org.springframework.stereotype.Controller;
 import java.io.File;
 import java.io.IOException;
 
-import static com.opensymphony.xwork2.Action.SUCCESS;
-
 @Controller("uploadAction")
 @Scope("prototype")
 public class UploadAction extends ActionSupport {
